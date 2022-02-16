@@ -6,7 +6,8 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 function NavBar() {
   return (
     <div>
-         <Navbar className="navbar-bgnd" expand="lg">
+      <Navbar fixed="top" />
+         <Navbar sticky="top" className="navbar-bgnd" expand="lg">
         <Container fluid>
           <Navbar.Brand href="#" ><img className="Nav__logo" src={logo} alt=""/></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
