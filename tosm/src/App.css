@@ -38,10 +38,25 @@
 }
 
 /* NavBar Link Styless */
-:root{
+:root {
   --primary-white: #fff;
+  --primary-theme: #9702ee;
 }
 
 .Nav__link {
   color: var(--primary-white) !important;
 }
+
+.Nav__logo {
+  width: 5rem;
+  height: 3rem;
+}
+.navbar-bgnd {
+  background-color: var(--primary-theme) !important;
+}
+
+.d-flex {
+  width: 22rem;
+}
+
+
