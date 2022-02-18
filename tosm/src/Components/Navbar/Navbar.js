@@ -18,14 +18,14 @@ function NavBar() {
               navbarScroll
             >
               <Nav.Link href="#action1" className="Nav__link">Home</Nav.Link>
-              <Nav.Link href="#action2"  className="Nav__link">About</Nav.Link>
+              <Nav.Link href="#action2"  className="Nav__link">About ORBT</Nav.Link>
               
-              <NavDropdown title="Link" id="navbarScrollingDropdown"  >
-                <NavDropdown.Item href="#action3" >Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+              <NavDropdown title="Product Category" id="navbarScrollingDropdown"  >
+                <NavDropdown.Item href="#action3" >Home Essentials</NavDropdown.Item>
+                <NavDropdown.Item href="#action4">Gaming </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action5"  >
-                  Something else here
+                  Fashion
                 </NavDropdown.Item>
                 
               </NavDropdown>
